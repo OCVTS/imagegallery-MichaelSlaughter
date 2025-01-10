@@ -4,21 +4,26 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <meta name="author" content="Michael Slaughter">
-        <title></title>
+        <title>Image Gallery</title>
         <link href="style.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <header></header>
         <main>
+            <!--Day 1: Review basic html, image tags, and placeholder images-->
             <h1>My Image Gallery</h1>
+            <!--Gallery container with images and captions-->
             <div id="gallery-container">
                 <img src="https://placehold.co/200x200" alt="img 1 placeholder">
-                <img src="https://placehold.co/200x200" alt="img 2 placeholder">
-                <img src="https://placehold.co/200x200" alt="img 3 placeholder">
+                <img src="https://placehold.co/201x200" alt="img 2 placeholder">
+                <img src="https://placehold.co/202x200" alt="img 3 placeholder">
             </div>
+            <!--Lightbox for displaying selected images-->
             <div id="lightbox" class="hidden">
                 <div class="lightbox-content">
+                    <button id="prev">&lt;</button>
                     <img id="lightbox-img" src="" alt=""> 
+                    <button id="next">&gt;</button>
                 </div>
             </div>
         </main>
