@@ -7,6 +7,9 @@ body{
 header {
     height: 20vh;
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 main {
@@ -21,15 +24,19 @@ main {
 footer {
     height: 10vh;
     background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 #gallery-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
+    max-width: 80vw;
     padding: 10px;
-    background-color: white;
-    border: 1px solid black;
+    background-color: #fff;
+    border: 1px solid #ddd;
     border-radius: 5px; 
 }
 
