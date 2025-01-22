@@ -86,16 +86,16 @@ footer {
     max-height: 50vh;
 }
 
-.lightbox-content {
-    position: relative;
-    display: flex;
-    align-items: center;
-}
-
 .lightbox-content img {
     max-width: 90%;
     max-width: 90%;
     border-radius: 5px;
+}
+
+.lightbox-content {
+    position: relative;
+    display: flex;
+    align-items: center;
 }
 
 .lightbox-content button {
@@ -125,11 +125,11 @@ footer {
         grid-template-columns: repeat(2, 1fr);
     }
     #prev {
-        left: 20vw;
+        left: 10vw;
     }
     
     #next {
-        right: 20vw;
+        right: 10vw;
     }
 }
 
