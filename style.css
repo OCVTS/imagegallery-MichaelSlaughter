@@ -81,11 +81,6 @@ footer {
     max-height: 50vh;
 }
 
-#lightbox.visible {
-    visibility: visible;
-    opacity: 1;
-}
-
 .lightbox-content {
     position: relative;
     display: flex;
